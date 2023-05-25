@@ -1,0 +1,1 @@
+# Arquitectura-Modulo-Analitics-SCADA
