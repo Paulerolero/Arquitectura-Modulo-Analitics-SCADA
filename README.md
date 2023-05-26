@@ -1,4 +1,4 @@
-# Arquitectura-Modulo-Analitics-SCADA
+# Arquitectura-Modulo-Analytics-SCADA
 
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
@@ -35,7 +35,7 @@
   <a href="https://github.com/othneildrew/Best-README-Template">
   </a>
 
-  <h3 align="center">Arquitectura de Modulo de Analitics en para Sistema SCADA</h3>
+  <h3 align="center">Arquitectura de Modulo de Analytics en para Sistema SCADA</h3>
 
   <p align="center">
     An awesome README template to jumpstart your projects!
