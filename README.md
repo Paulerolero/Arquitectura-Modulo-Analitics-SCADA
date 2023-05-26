@@ -1,5 +1,12 @@
 # Arquitectura-Modulo-Analitics-SCADA
 
+Proyecto:
+```
+git status
+git add
+git commit
+```
+
 El desarrollo propone la construcción de un módulo de análisis avanzado de un sistema SCADA (Supervisory Control and Data Acquisition). Este módulo permite recopilar, procesar y analizar datos provenientes de los sistemas dentro de un entorno, con el objetivo de proporcionar información valiosa y conocimientos útiles para la predicción de la vida útil de los sistemas de mantenimiento, además de apoyar en toma de decisiones y la optimización del rendimiento en los procesos de supervisión y control.
 
 > Características Módulo de Análisis:
