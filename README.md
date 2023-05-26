@@ -56,8 +56,8 @@
       <a href="#acerca-del-proyecto">Acerca del Proyecto</a>
       <ul>
         <li><a href="#objetivos">Objetivos</a></li>
-        <li><a href="#objetivos">Alcance</a></li>
-        <li><a href="#objetivos">Supuestos</a></li>
+        <li><a href="#alcance">Alcance</a></li>
+        <li><a href="#supuestos">Supuestos</a></li>
       </ul>
     </li>
     <li><a href="#minutas">Minutas de Reunión</a></li>
