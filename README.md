@@ -65,6 +65,7 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
+    <li><a href="#minutas">Minutas de Reunión</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
@@ -95,6 +96,8 @@ Procesamiento y Transformación de Datos: El módulo cuenta con algoritmos y té
 <p align="right">(<a href="#readme-top">Volver al principio</a>)</p>
 
 
+### Minutas de Reunión
+<a href="https://docs.google.com/document/d/1Mbfo0DfpvxPdPaXzHG5i1hJdYeJ9zXHfTp3KL9THBFY/edit?usp=sharing" target="_blank">Documento Minutas</a>
 
 ### Built With
 
