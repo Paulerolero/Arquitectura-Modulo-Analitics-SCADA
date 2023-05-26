@@ -75,7 +75,7 @@ Procesamiento y Transformación de Datos: El módulo cuenta con algoritmos y té
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#acerca_del_proyecto">Acerca del Proyecto</a>
+      <a href="#acerca-del-proyecto">Acerca del Proyecto</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -98,7 +98,7 @@ Procesamiento y Transformación de Datos: El módulo cuenta con algoritmos y té
 
 
 
-<!-- acerca_del_proyecto -->
+<!-- acerca-del-proyecto -->
 ## Acerca del Proyecto
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
