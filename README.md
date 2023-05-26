@@ -2,7 +2,7 @@
 
 El desarrollo propone la construcción de un módulo de análisis avanzado de un sistema SCADA (Supervisory Control and Data Acquisition). Este módulo permite recopilar, procesar y analizar datos provenientes de los sistemas dentro de un entorno, con el objetivo de proporcionar información valiosa y conocimientos útiles para la predicción de la vida útil de los sistemas de mantenimiento, además de apoyar en toma de decisiones y la optimización del rendimiento en los procesos de supervisión y control.
 
-Características Módulo de Análisis:
+> Características Módulo de Análisis:
 
 > Recopilación de Datos: El módulo tiene la capacidad de recopilar datos desde la base de datos centralizada del sistema, la cual corre bajo protocolos SQL server.
 Procesamiento y Transformación de Datos: El módulo cuenta con algoritmos y técnicas para procesar y transformar los datos recopilados en información significativa, esto implica aplicar técnicas de filtrado, normalización y corrección de datos, así como realizar cálculos y agregaciones para generar métricas relevantes.
