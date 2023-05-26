@@ -35,7 +35,7 @@
   <a href="https://github.com/othneildrew/Best-README-Template">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Arquitectura de Modulo de Analitics en para Sistema SCADA</h3>
 
   <p align="center">
     An awesome README template to jumpstart your projects!
@@ -43,19 +43,14 @@
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
   </p>
 </div>
 
 
 
-<!-- TABLE OF CONTENTS -->
+<!-- tabla-de-contenidos -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary>Tabla de Contenidos</summary>
   <ol>
     <li>
       <a href="#acerca-del-proyecto">Acerca del Proyecto</a>
