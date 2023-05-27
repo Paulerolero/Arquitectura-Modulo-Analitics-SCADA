@@ -55,6 +55,7 @@
     <li>
       <a href="#acerca-del-proyecto">Acerca del Proyecto</a>
       <ul>
+        <li><a href="#El-Modulo-de-Analisis-Potenciando-la-Extraccion-de-Valor-a partir-de-los-Datos">El Módulo de Análisis: Potenciando la Extracción de Valor a partir de los Datos</a></li>
         <li><a href="#objetivos">Objetivos</a></li>
         <li><a href="#alcance">Alcance</a></li>
         <li><a href="#supuestos">Supuestos</a></li>
@@ -82,18 +83,19 @@
 <!-- acerca-del-proyecto -->
 ## Acerca del Proyecto
 
-El desarrollo propone la construcción de un módulo de análisis avanzado de un sistema SCADA (Supervisory Control and Data Acquisition). Este módulo permite recopilar, procesar y analizar datos provenientes de los sistemas dentro de un entorno, con el objetivo de proporcionar información valiosa y conocimientos útiles para la predicción de la vida útil de los sistemas de mantenimiento, además de apoyar en toma de decisiones y la optimización del rendimiento en los procesos de supervisión y control.
+El proyecto propuesto se centra en la construcción de un módulo avanzado de análisis para un sistema SCADA (Supervisory Control and Data Acquisition). Este módulo está diseñado para recolectar, procesar y analizar datos provenientes de los sistemas operativos en un ambiente dado. La finalidad es generar información significativa y aportar conocimientos valiosos que permitan predecir la vida útil de los sistemas de mantenimiento. Además, este módulo contribuirá a la toma de decisiones y a la optimización del rendimiento en los procesos de supervisión y control.
 
-Características Módulo de Análisis:
+### El Módulo de Análisis: Potenciando la Extracción de Valor a partir de los Datos
 
-- Recopilación de Datos: El módulo tiene la capacidad de recopilar datos desde la base de datos centralizada del sistema, la cual corre bajo protocolos SQL server.
-Procesamiento y Transformación de Datos: El módulo cuenta con algoritmos y técnicas para procesar y transformar los datos recopilados en información significativa, esto implica aplicar técnicas de filtrado, normalización y corrección de datos, así como realizar cálculos y agregaciones para generar métricas relevantes.
+-Recopilación de Datos Eficiente: Nuestro módulo se integra directamente con la base de datos centralizada del sistema utilizando protocolos SQL Server. Esta funcionalidad garantiza una recopilación de datos oportuna y precisa, vital para cualquier análisis de alta calidad.
 
-- Análisis Estadístico: El módulo proporciona capacidades de análisis estadístico para identificar patrones, tendencias y anomalías en los datos. Incluye técnicas como análisis de regresión, análisis de series temporales, análisis de frecuencia y análisis de correlación, con el objetivo de comprender el comportamiento del sistema en diferentes condiciones y tomar medidas proactivas para prevenir problemas o mejorar la eficiencia.
+-Procesamiento y Transformación de Datos Robusta: Con la implementación de algoritmos de vanguardia, nuestro módulo transforma los datos brutos en información de alto valor. Las técnicas incorporadas incluyen el filtrado, la normalización y la corrección de datos, así como la generación de métricas a través de cálculos y agregaciones.
 
-- Modelado Predictivo: El módulo ofrece funcionalidades de modelado predictivo que permiten desarrollar modelos matemáticos y algoritmos de aprendizaje automático (machine learning) para predecir el comportamiento futuro del sistema. Estos modelos pueden ser utilizados para anticipar fallas, detectar condiciones anómalas o realizar pronósticos de producción, lo que ayuda a evitar interrupciones costosas y optimizar los recursos.
+-Análisis Estadístico Avanzado: El módulo de análisis ofrece una variedad de técnicas estadísticas, desde análisis de regresión y análisis de series temporales hasta análisis de frecuencia y análisis de correlación. Estas capacidades proporcionan una comprensión profunda del comportamiento del sistema, permitiendo una identificación proactiva de problemas y una mejora continua de la eficiencia.
 
-- Visualización y Reportes: El módulo proporciona una interfaz gráfica intuitiva que permite visualizar los resultados del análisis. Los datos se presentan a través de gráficos interactivos, tablas y paneles de control personalizables, además, se pueden generar reportes automatizados para comunicar los resultados del análisis y compartirlos con el personal involucrado en la toma de decisiones.
+-Modelado Predictivo Preciso: El módulo cuenta con funcionalidades para desarrollar modelos matemáticos y algoritmos de aprendizaje automático con el fin de predecir el comportamiento futuro del sistema. Estos modelos predictivos facilitan la anticipación de fallas, la detección de condiciones anómalas y la realización de pronósticos de producción.
+
+-Visualización y Reportes Intuitivos: La interfaz gráfica del módulo permite una visualización detallada y personalizable de los resultados del análisis. Los datos se presentan mediante gráficos interactivos, tablas y dashboards ajustables. Además, el módulo es capaz de generar reportes automatizados para facilitar la comunicación y la toma de decisiones basada en datos.
 
 <p align="right">(<a href="#readme-top">Volver al principio</a>)</p>
 
