@@ -55,8 +55,7 @@
     <li>
       <a href="#acerca-del-proyecto">Acerca del Proyecto</a>
       <ul>
-        <li><a href="#El-Modulo-de-Analisis-Potenciando-la-Extraccion-de-Valor-a partir-de-los-Datos">El Módulo de Análisis: Potenciando la Extracción de Valor a partir de los Datos</a></li>
-        <li><a href="#objetivos">Objetivos</a></li>
+        <li><a href="#objetivo">Objetivo</a></li>
         <li><a href="#alcance">Alcance</a></li>
         <li><a href="#supuestos">Supuestos</a></li>
       </ul>
@@ -85,7 +84,7 @@
 
 El proyecto propuesto se centra en la construcción de un módulo avanzado de análisis para un sistema SCADA (Supervisory Control and Data Acquisition). Este módulo está diseñado para recolectar, procesar y analizar datos provenientes de los sistemas operativos en un ambiente dado. La finalidad es generar información significativa y aportar conocimientos valiosos que permitan predecir la vida útil de los sistemas de mantenimiento. Además, este módulo contribuirá a la toma de decisiones y a la optimización del rendimiento en los procesos de supervisión y control.
 
-### El Módulo de Análisis: Potenciando la Extracción de Valor a partir de los Datos
+#### El Módulo de Análisis: Potenciando la Extracción de Valor a partir de los Datos
 
 -Recopilación de Datos Eficiente: Nuestro módulo se integra directamente con la base de datos centralizada del sistema utilizando protocolos SQL Server. Esta funcionalidad garantiza una recopilación de datos oportuna y precisa, vital para cualquier análisis de alta calidad.
 
@@ -99,9 +98,18 @@ El proyecto propuesto se centra en la construcción de un módulo avanzado de an
 
 <p align="right">(<a href="#readme-top">Volver al principio</a>)</p>
 
-### Objetivos
+### Objetivo
+Diseñar una arquitectura robusta y eficiente para un Módulo de Análisis que pueda soportar técnicas avanzadas de análisis predictivo con el objetivo de predecir la vida útil de los componentes individuales de los sistemas eléctricos. Esta arquitectura debe facilitar la integración y extracción de datos, el procesamiento y la visualización de los datos, así como la generación de modelos de predicción, permitiendo la futura implementación de un sistema de mantenimiento predictivo más eficiente.
 
 ### Alcance
+El alcance de este proyecto se centra en el diseño de la arquitectura para un Módulo de Análisis predictivo que se enfocará en los interruptores, transformadores y sistemas de alimentación de un sistema eléctrico. Este diseño de arquitectura incluirá:
+
+-La definición de los métodos de extracción de datos de las fuentes proporcionadas por los sistemas SCADA, que reportan datos en tiempo real como temperaturas, tensión, amperajes, entre otros.
+-El diseño de los algoritmos de aprendizaje automático y técnicas estadísticas que se utilizarán para realizar el análisis predictivo de la vida útil de los componentes del sistema eléctrico.
+-La identificación y definición de la tecnología que se utilizará para la interfaz de usuario para visualizar los datos y los resultados del análisis. No se incluirán mockups o la implementación de esta interfaz en el alcance de este proyecto.
+-La integración con la base de datos del sistema SCADA existente.
+-La validación de la arquitectura mediante la metodología ATAM (Architecture Tradeoff Analysis Method).
+-Este proyecto no incluirá la implementación de los algoritmos de aprendizaje automático ni de la interfaz de usuario, así como tampoco la formación o el soporte para los usuarios finales. Estos aspectos se considerarán para futuras fases del desarrollo.
 
 ### Supuestos
 
