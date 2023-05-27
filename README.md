@@ -31,7 +31,7 @@
   <h3 align="center">Arquitectura de Modulo de Analytics en para Sistema SCADA</h3>
 
   <p align="center">
-    <small>Repositorio para el curso Arquitectura de Sistemas Complejo del magiester en informática de la UBO</small>
+    <small>_Repositorio para el curso Arquitectura de Sistemas Complejo del magiester en informática de la UBO_</small>
   </p>
 </div>
 
@@ -86,8 +86,6 @@ El proyecto propuesto se centra en la construcción de un módulo avanzado de an
 
 - Visualización y Reportes Intuitivos: La interfaz gráfica del módulo permite una visualización detallada y personalizable de los resultados del análisis. Los datos se presentan mediante gráficos interactivos, tablas y dashboards ajustables. Además, el módulo es capaz de generar reportes automatizados para facilitar la comunicación y la toma de decisiones basada en datos.
 
-<p align="right">(<a href="#readme-top">Inicio</a>)</p>
-
 ### Objetivo
 Diseñar una arquitectura robusta y eficiente para un Módulo de Análisis que pueda soportar técnicas avanzadas de análisis predictivo con el objetivo de predecir la vida útil de los componentes individuales de los sistemas eléctricos. Esta arquitectura debe facilitar la integración y extracción de datos, el procesamiento y la visualización de los datos, así como la generación de modelos de predicción, permitiendo la futura implementación de un sistema de mantenimiento predictivo más eficiente.
 
@@ -104,37 +102,59 @@ La seguridad y la privacidad de los datos serán una consideración importante e
 
 El proyecto no incluirá la implementación del Módulo de Análisis ni la creación de mockups del sistema. Estas tareas se contemplarán para una fase posterior. Finalmente, se planea una validación de la arquitectura mediante la aplicación de la metodología ATAM (Architecture Tradeoff Analysis Method).
 
-### Supuestos
+<p align="right">(<a href="#readme-top">Inicio</a>)</p>
+
+## Requisitos
+
+### Requisitos Funcionales
+<a href="https://docs.google.com/document/d/1n1icxPZ6yP9V9wLhI1s7oLNpEvhD1sU8nt3Il-ZO1jM/edit?usp=sharing" target="_blank">Detalle de requisitos Funcionales </a>
+
+### Requisitos No Funcionales
+<a href="https://docs.google.com/document/d/1WfSEzJ0k1bJRqq1p42pyplcmrlwiRG6v4wzUJE7Gr4c/edit?usp=sharing" target="_blank">Detalle de requisitos No Funcionales</a>
 
 <p align="right">(<a href="#readme-top">Inicio</a>)</p>
+
 
 ## Minutas de Reunión
 <a href="https://docs.google.com/document/d/1Mbfo0DfpvxPdPaXzHG5i1hJdYeJ9zXHfTp3KL9THBFY/edit?usp=sharing" target="_blank">Documento Minutas</a>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Inicio</a>)</p>
 
+## Componentes del Sistema
+A continuación se datallaran los componentes que son parte de la solución
 
+1.- **Sistema de extracción de datos:** Este componente será responsable de extraer datos del sistema SCADA. Esto incluirá la conexión a la base de datos del sistema SCADA, la ejecución de consultas para extraer los datos necesarios y la gestión de la transferencia de estos datos al siguiente componente del sistema. Este componente deberá ser capaz de manejar la extracción de datos de varias tablas relacionadas y de gestionar los datos en tiempo real y los datos históricos.
 
-<!-- GETTING STARTED -->
+2.- **Data Warehouse:** Este componente almacenará los datos extraídos del sistema SCADA. Deberá diseñarse de acuerdo con un modelo de estrella o de copo de nieve, según sea apropiado, y deberá ser capaz de soportar las operaciones de análisis y procesamiento necesarias. Esto incluirá la gestión de la estructura de la base de datos, la organización y almacenamiento de los datos y el mantenimiento de los niveles de agregación o desagregación necesarios.
+
+3.- **Procesamiento y Transformación de Datos:** Este componente será responsable de transformar los datos brutos en información significativa. Esto incluirá la limpieza de los datos, la validación, la estandarización, la implementación de un sistema de auditoría, la gestión de los datos faltantes y la revisión continua de los datos.
+
+4.- **Análisis Estadístico y Modelado Predictivo:** Este componente llevará a cabo el análisis de los datos y generará predicciones. Deberá ser capaz de implementar técnicas de análisis estadístico como el análisis de regresión, el análisis de series de tiempo y el análisis de varianza. También deberá ser capaz de implementar modelos predictivos utilizando algoritmos de aprendizaje automático, como la regresión lineal o la regresión de bosques aleatorios.
+
+5.- **Visualización y Generación de Informes:** Este componente será la interfaz de usuario del sistema. Deberá ser capaz de presentar los resultados del análisis de manera clara y útil, a través de gráficos interactivos, tableros de control e informes automatizados. También deberá permitir a los usuarios interactuar con los datos y explorarlos de manera más profunda si lo desean.
+
 ## Arquitectura
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Vista lógica
-
+Esta vista describirá cómo el Módulo de Análisis interactúa con los sistemas SCADA para recopilar datos. También detallará cómo se estructuran los datos recopilados y cómo se transforman para su análisis.
 
 ### Vista de procesos
+ Esta vista se ocupará de cómo se manejarán las tareas concurrentes en el sistema, como la recopilación de datos en tiempo real de los sistemas SCADA y el análisis simultáneo de los datos recopilados.
 
 
-### Vista de despliegue
-
-
-### Vista Física
-
+### Vista de Desarrollo
+ Esta vista proporcionará detalles sobre cómo se dividirá el Módulo de Análisis en componentes distintos para manejar tareas como la recopilación de datos, el procesamiento de datos, el análisis de datos y la visualización de datos. También describirá cómo se organizarán estos componentes en el sistema.
 
 ### Vista Física
+Esta vista se ocupará de cómo se desplegará el Módulo de Análisis en la infraestructura de hardware existente. Describirá cómo los componentes del sistema se mapearán en el hardware y cómo se manejarán las interacciones entre el hardware y el software.
 
+### Vista de Escenarios
+Esta vista describirá varios escenarios de uso del Módulo de Análisis. Por ejemplo, podría haber un escenario en el que los datos recopilados de los sistemas SCADA se utilicen para predecir la vida útil de un componente eléctrico específico.
+
+<p align="right">(<a href="#readme-top">Inicio</a>)</p>
 
 ## Colaboradores
 
@@ -151,6 +171,7 @@ To get a local copy up and running follow these simple example steps.
 **Salinas, Paulo**
 - [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/) [![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/)
 
+<p align="right">(<a href="#readme-top">Inicio</a>)</p>
 
 <!-- ROADMAP 
 ## Roadmap
