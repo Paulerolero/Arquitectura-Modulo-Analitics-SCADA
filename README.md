@@ -88,13 +88,13 @@ El proyecto propuesto se centra en la construcción de un módulo avanzado de an
 
 -Recopilación de Datos Eficiente: Nuestro módulo se integra directamente con la base de datos centralizada del sistema utilizando protocolos SQL Server. Esta funcionalidad garantiza una recopilación de datos oportuna y precisa, vital para cualquier análisis de alta calidad.
 
--Procesamiento y Transformación de Datos Robusta: Con la implementación de algoritmos de vanguardia, nuestro módulo transforma los datos brutos en información de alto valor. Las técnicas incorporadas incluyen el filtrado, la normalización y la corrección de datos, así como la generación de métricas a través de cálculos y agregaciones.
+- Procesamiento y Transformación de Datos Robusta: Con la implementación de algoritmos de vanguardia, nuestro módulo transforma los datos brutos en información de alto valor. Las técnicas incorporadas incluyen el filtrado, la normalización y la corrección de datos, así como la generación de métricas a través de cálculos y agregaciones.
 
--Análisis Estadístico Avanzado: El módulo de análisis ofrece una variedad de técnicas estadísticas, desde análisis de regresión y análisis de series temporales hasta análisis de frecuencia y análisis de correlación. Estas capacidades proporcionan una comprensión profunda del comportamiento del sistema, permitiendo una identificación proactiva de problemas y una mejora continua de la eficiencia.
+- Análisis Estadístico Avanzado: El módulo de análisis ofrece una variedad de técnicas estadísticas, desde análisis de regresión y análisis de series temporales hasta análisis de frecuencia y análisis de correlación. Estas capacidades proporcionan una comprensión profunda del comportamiento del sistema, permitiendo una identificación proactiva de problemas y una mejora continua de la eficiencia.
 
--Modelado Predictivo Preciso: El módulo cuenta con funcionalidades para desarrollar modelos matemáticos y algoritmos de aprendizaje automático con el fin de predecir el comportamiento futuro del sistema. Estos modelos predictivos facilitan la anticipación de fallas, la detección de condiciones anómalas y la realización de pronósticos de producción.
+- Modelado Predictivo Preciso: El módulo cuenta con funcionalidades para desarrollar modelos matemáticos y algoritmos de aprendizaje automático con el fin de predecir el comportamiento futuro del sistema. Estos modelos predictivos facilitan la anticipación de fallas, la detección de condiciones anómalas y la realización de pronósticos de producción.
 
--Visualización y Reportes Intuitivos: La interfaz gráfica del módulo permite una visualización detallada y personalizable de los resultados del análisis. Los datos se presentan mediante gráficos interactivos, tablas y dashboards ajustables. Además, el módulo es capaz de generar reportes automatizados para facilitar la comunicación y la toma de decisiones basada en datos.
+- Visualización y Reportes Intuitivos: La interfaz gráfica del módulo permite una visualización detallada y personalizable de los resultados del análisis. Los datos se presentan mediante gráficos interactivos, tablas y dashboards ajustables. Además, el módulo es capaz de generar reportes automatizados para facilitar la comunicación y la toma de decisiones basada en datos.
 
 <p align="right">(<a href="#readme-top">Volver al principio</a>)</p>
 
@@ -104,12 +104,12 @@ Diseñar una arquitectura robusta y eficiente para un Módulo de Análisis que p
 ### Alcance
 El alcance de este proyecto se centra en el diseño de la arquitectura para un Módulo de Análisis predictivo que se enfocará en los interruptores, transformadores y sistemas de alimentación de un sistema eléctrico. Este diseño de arquitectura incluirá:
 
--La definición de los métodos de extracción de datos de las fuentes proporcionadas por los sistemas SCADA, que reportan datos en tiempo real como temperaturas, tensión, amperajes, entre otros.
--El diseño de los algoritmos de aprendizaje automático y técnicas estadísticas que se utilizarán para realizar el análisis predictivo de la vida útil de los componentes del sistema eléctrico.
--La identificación y definición de la tecnología que se utilizará para la interfaz de usuario para visualizar los datos y los resultados del análisis. No se incluirán mockups o la implementación de esta interfaz en el alcance de este proyecto.
--La integración con la base de datos del sistema SCADA existente.
--La validación de la arquitectura mediante la metodología ATAM (Architecture Tradeoff Analysis Method).
--Este proyecto no incluirá la implementación de los algoritmos de aprendizaje automático ni de la interfaz de usuario, así como tampoco la formación o el soporte para los usuarios finales. Estos aspectos se considerarán para futuras fases del desarrollo.
+- La definición de los métodos de extracción de datos de las fuentes proporcionadas por los sistemas SCADA, que reportan datos en tiempo real como temperaturas, tensión, amperajes, entre otros.
+- El diseño de los algoritmos de aprendizaje automático y técnicas estadísticas que se utilizarán para realizar el análisis predictivo de la vida útil de los componentes del sistema eléctrico.
+- La identificación y definición de la tecnología que se utilizará para la interfaz de usuario para visualizar los datos y los resultados del análisis. No se incluirán mockups o la implementación de esta interfaz en el alcance de este proyecto.
+- La integración con la base de datos del sistema SCADA existente.
+- La validación de la arquitectura mediante la metodología ATAM (Architecture Tradeoff Analysis Method).
+- Este proyecto no incluirá la implementación de los algoritmos de aprendizaje automático ni de la interfaz de usuario, así como tampoco la formación o el soporte para los usuarios finales. Estos aspectos se considerarán para futuras fases del desarrollo.
 
 ### Supuestos
 
