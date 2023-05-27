@@ -138,7 +138,7 @@ A continuación se datallaran los componentes que son parte de la solución
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/parzibyte/WaterPy/master/assets/ImagenV1.png)
+![diagrama-41](https://github.com/Paulerolero/Arquitectura-Modulo-Analitics-SCADA/assets/118944406/bd7a2408-55a9-4ff2-b233-fc9012180975)
 
 ### Vista lógica
 Esta vista describirá cómo el Módulo de Análisis interactúa con los sistemas SCADA para recopilar datos. También detallará cómo se estructuran los datos recopilados y cómo se transforman para su análisis.
