@@ -138,32 +138,18 @@ To get a local copy up and running follow these simple example steps.
 
 ## Colaboradores
 
+**Contreras, Sebastian**
+- [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/) [![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/)
 
+**López, Hernán**
+- [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://github.com/HernanLoGo) [![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://www.linkedin.com/in/hernan-logo)
 
-
-
-- Contreras, Sebastian
-  - **correo@example.com**
-  - [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://github.com/HernanLoGo) [![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://www.linkedin.com/in/hernan-logo)
-
-- López, Hernán
-  - **correo@example.com**
-  - [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/)
-  - [![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/)
   
-- Mellado, Osvaldo
-  - **correo@example.com**
-  - GitHub: [github.com/usuario1](https://github.com/usuario1)
-  - [![LinkedIn](linkedin-icon.png)](https://linkedin.com/in/tu-perfil)
+**Mellado, Osvaldo**
+- [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/) [![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/)
 
-- Salinas, Paulo
-  - **correo@example.com**
-  - GitHub: [github.com/usuario2](https://github.com/usuario2)
-  - LinkedIn: [linkedin.com/in/usuario2](https://linkedin.com/in/usuario2)
-  - [![LinkedIn](linkedin-icon.png)](https://linkedin.com/in/tu-perfil)
-
-
-<a href="https://linkedin.com/in/hernan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="hernan" height="30" width="40" /></a>
+**Salinas, Paulo**
+- [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/) [![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/)
 
 
 <!-- ROADMAP 
