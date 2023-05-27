@@ -138,23 +138,27 @@ To get a local copy up and running follow these simple example steps.
 
 ## Colaboradores
 
-- Nombre del colaborador 1
-  - Email: correo@example.com
-  - GitHub: [github.com/usuario1](https://github.com/usuario1)
-  - LinkedIn: [linkedin.com/in/usuario1](https://linkedin.com/in/usuario1)
 
-- Nombre del colaborador 2
-  - Email: correo2@example.com
+
+
+
+- Contreras, Sebastian
+  - **correo@example.com**
+  - [![GitHub](github-icon.png)]([https://github.com/HernanLoGo](https://github.com/HernanLoGo))
+  - [![LinkedIn](linkedin-icon.png)]([https://www.linkedin.com/in/hernan-logo](https://www.linkedin.com/in/hernan-logo))
+
+- López, Hernán
+  - **correo@example.com**
   - GitHub: [github.com/usuario2](https://github.com/usuario2)
-  - LinkedIn: [linkedin.com/in/usuario2](https://linkedin.com/in/usuario2)
+  - [![LinkedIn](linkedin-icon.png)](https://linkedin.com/in/tu-perfil)
   
-- Nombre del colaborador 1
-  - Email: correo@example.com
+- Mellado, Osvaldo
+  - **correo@example.com**
   - GitHub: [github.com/usuario1](https://github.com/usuario1)
-  - LinkedIn: [linkedin.com/in/usuario1](https://linkedin.com/in/usuario1)
+  - [![LinkedIn](linkedin-icon.png)](https://linkedin.com/in/tu-perfil)
 
-- Nombre del colaborador 2
-  - Email: correo2@example.com
+- Salinas, Paulo
+  - **correo@example.com**
   - GitHub: [github.com/usuario2](https://github.com/usuario2)
   - LinkedIn: [linkedin.com/in/usuario2](https://linkedin.com/in/usuario2)
   - [![LinkedIn](linkedin-icon.png)](https://linkedin.com/in/tu-perfil)
