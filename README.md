@@ -96,41 +96,34 @@ El proyecto propuesto se centra en la construcción de un módulo avanzado de an
 
 - Visualización y Reportes Intuitivos: La interfaz gráfica del módulo permite una visualización detallada y personalizable de los resultados del análisis. Los datos se presentan mediante gráficos interactivos, tablas y dashboards ajustables. Además, el módulo es capaz de generar reportes automatizados para facilitar la comunicación y la toma de decisiones basada en datos.
 
-<p align="right">(<a href="#readme-top">Volver al principio</a>)</p>
+<p align="right">(<a href="#readme-top">Inicio</a>)</p>
 
 ### Objetivo
 Diseñar una arquitectura robusta y eficiente para un Módulo de Análisis que pueda soportar técnicas avanzadas de análisis predictivo con el objetivo de predecir la vida útil de los componentes individuales de los sistemas eléctricos. Esta arquitectura debe facilitar la integración y extracción de datos, el procesamiento y la visualización de los datos, así como la generación de modelos de predicción, permitiendo la futura implementación de un sistema de mantenimiento predictivo más eficiente.
 
 ### Alcance
-El alcance de este proyecto se centra en el diseño de la arquitectura para un Módulo de Análisis predictivo que se enfocará en los interruptores, transformadores y sistemas de alimentación de un sistema eléctrico. Este diseño de arquitectura incluirá:
+Considerando las respuestas a las preguntas sobre la extracción de datos y la decisión entre un data warehouse y un data mart, el alcance del proyecto podría quedar de la siguiente manera:
 
-- La definición de los métodos de extracción de datos de las fuentes proporcionadas por los sistemas SCADA, que reportan datos en tiempo real como temperaturas, tensión, amperajes, entre otros.
-- El diseño de los algoritmos de aprendizaje automático y técnicas estadísticas que se utilizarán para realizar el análisis predictivo de la vida útil de los componentes del sistema eléctrico.
-- La identificación y definición de la tecnología que se utilizará para la interfaz de usuario para visualizar los datos y los resultados del análisis. No se incluirán mockups o la implementación de esta interfaz en el alcance de este proyecto.
-- La integración con la base de datos del sistema SCADA existente.
-- La validación de la arquitectura mediante la metodología ATAM (Architecture Tradeoff Analysis Method).
-- Este proyecto no incluirá la implementación de los algoritmos de aprendizaje automático ni de la interfaz de usuario, así como tampoco la formación o el soporte para los usuarios finales. Estos aspectos se considerarán para futuras fases del desarrollo.
+El proyecto se centrará en diseñar una arquitectura robusta para un Módulo de Análisis que permita la recopilación, procesamiento, análisis y visualización de datos provenientes de los sistemas SCADA. Este módulo se enfocará en la predicción de la vida útil de componentes específicos de los sistemas eléctricos, como interruptores, transformadores y sistemas de alimentación.
+
+La extracción de datos será un componente esencial de la arquitectura, y se desarrollará un mecanismo específico para este propósito. Los datos a extraer incluirán voltajes, amperajes y otros datos relevantes de los sistemas, y se establecerán protocolos para manejar problemas de calidad de datos durante la extracción.
+
+El proyecto también incluirá el diseño de un data warehouse para almacenar y gestionar los datos recopilados. Este data warehouse estará diseñado para soportar el análisis avanzado de datos y la generación de modelos predictivos.
+
+La seguridad y la privacidad de los datos serán una consideración importante en el diseño de la arquitectura, y se establecerán medidas para asegurar que los datos sean accesibles sólo por el sistema.
+
+El proyecto no incluirá la implementación del Módulo de Análisis ni la creación de mockups del sistema. Estas tareas se contemplarán para una fase posterior. Finalmente, se planea una validación de la arquitectura mediante la aplicación de la metodología ATAM (Architecture Tradeoff Analysis Method).
 
 ### Supuestos
 
-
-### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Inicio</a>)</p>
 
 ## Minutas de Reunión
 <a href="https://docs.google.com/document/d/1Mbfo0DfpvxPdPaXzHG5i1hJdYeJ9zXHfTp3KL9THBFY/edit?usp=sharing" target="_blank">Documento Minutas</a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 <!-- GETTING STARTED -->
 ## Getting Started
