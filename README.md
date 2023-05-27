@@ -159,6 +159,10 @@ To get a local copy up and running follow these simple example steps.
   - LinkedIn: [linkedin.com/in/usuario2](https://linkedin.com/in/usuario2)
   - [![LinkedIn](linkedin-icon.png)](https://linkedin.com/in/tu-perfil)
 
+
+<a href="https://linkedin.com/in/hernan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="hernan" height="30" width="40" /></a>
+
+
 <!-- ROADMAP 
 ## Roadmap
 
