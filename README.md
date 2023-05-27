@@ -142,7 +142,7 @@ To get a local copy up and running follow these simple example steps.
 - [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/) [![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/)
 
 **López, Hernán**
-- [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://github.com/HernanLoGo) [![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://www.linkedin.com/in/hernan-logo)
+- [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/hernan-logo) [![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/HernanLoGo)
 
   
 **Mellado, Osvaldo**
