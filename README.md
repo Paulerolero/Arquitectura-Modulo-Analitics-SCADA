@@ -133,10 +133,12 @@ A continuación se datallaran los componentes que son parte de la solución
 
 5.- **Visualización y Generación de Informes:** Este componente será la interfaz de usuario del sistema. Deberá ser capaz de presentar los resultados del análisis de manera clara y útil, a través de gráficos interactivos, tableros de control e informes automatizados. También deberá permitir a los usuarios interactuar con los datos y explorarlos de manera más profunda si lo desean.
 
-## Arquitectura
+## Arquitectura.
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
+
+![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/parzibyte/WaterPy/master/assets/ImagenV1.png)
 
 ### Vista lógica
 Esta vista describirá cómo el Módulo de Análisis interactúa con los sistemas SCADA para recopilar datos. También detallará cómo se estructuran los datos recopilados y cómo se transforman para su análisis.
