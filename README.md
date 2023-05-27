@@ -144,13 +144,12 @@ To get a local copy up and running follow these simple example steps.
 
 - Contreras, Sebastian
   - **correo@example.com**
-  - [![GitHub](github-icon.png)]([https://github.com/HernanLoGo](https://github.com/HernanLoGo))
-  - [![LinkedIn](linkedin-icon.png)]([https://www.linkedin.com/in/hernan-logo](https://www.linkedin.com/in/hernan-logo))
+  - [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://github.com/HernanLoGo) [![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://www.linkedin.com/in/hernan-logo)
 
 - López, Hernán
   - **correo@example.com**
-  - GitHub: [github.com/usuario2](https://github.com/usuario2)
-  - [![LinkedIn](linkedin-icon.png)](https://linkedin.com/in/tu-perfil)
+  - [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/)
+  - [![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/)
   
 - Mellado, Osvaldo
   - **correo@example.com**
