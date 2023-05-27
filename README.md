@@ -20,13 +20,6 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 
 
 <!-- PROJECT LOGO -->
@@ -38,7 +31,7 @@
   <h3 align="center">Arquitectura de Modulo de Analytics en para Sistema SCADA</h3>
 
   <p align="center">
-    Repositorio para el curso Arquitectura de sistemas complejo del magiester en informática de la UBO
+    <small>Repositorio para el curso Arquitectura de Sistemas Complejo del magiester en informática de la UBO</small>
   </p>
 </div>
 
@@ -70,6 +63,7 @@
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#colaboradores">Colaboradores</a></li>Colaboradores
   </ol>
 </details>
 
@@ -153,7 +147,18 @@ To get a local copy up and running follow these simple example steps.
   - Email: correo2@example.com
   - GitHub: [github.com/usuario2](https://github.com/usuario2)
   - LinkedIn: [linkedin.com/in/usuario2](https://linkedin.com/in/usuario2)
-  - 
+  
+- Nombre del colaborador 1
+  - Email: correo@example.com
+  - GitHub: [github.com/usuario1](https://github.com/usuario1)
+  - LinkedIn: [linkedin.com/in/usuario1](https://linkedin.com/in/usuario1)
+
+- Nombre del colaborador 2
+  - Email: correo2@example.com
+  - GitHub: [github.com/usuario2](https://github.com/usuario2)
+  - LinkedIn: [linkedin.com/in/usuario2](https://linkedin.com/in/usuario2)
+  - [![LinkedIn](linkedin-icon.png)](https://linkedin.com/in/tu-perfil)
+
 <!-- ROADMAP 
 ## Roadmap
 
