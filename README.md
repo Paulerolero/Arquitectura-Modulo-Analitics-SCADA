@@ -45,26 +45,27 @@
       <a href="#acerca-del-proyecto">Acerca del Proyecto</a>
       <ul>
         <li><a href="#objetivo">Objetivo</a></li>
-        <li><a href="#alcance">Alcance</a></li>
-        <li><a href="#el-módulo-de-análisis-potenciando-la-extracción-de-valor-a-partir-de-los-datos">El Módulo de Análisis</a></li>
-        <li><a href="#supuestos">Supuestos</a></li>
+        <li><a href="#alcance">Alcance</a>
+          <li><a href="#el-módulo-de-análisis-potenciando-la-extracción-de-valor-a-partir-de-los-datos">El Módulo de Análisis</a></li>
+        </li>
       </ul>
+    </li>
+    <li><a href="#requisitos">Requisitos</a>
+        <li><a href="#requisitos-funcionales">Requisitos Fuincionales</a></li>
+        <li><a href="#requisitos-no-funcionales">Requisitos no Fuincionales</a></li>
     </li>
     <li><a href="#minutas">Minutas de Reunión</a></li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
+    <li><a href="#componentes-del-sistema">Componentes del Sistema</a>
+        <li><a href="#componentes-del-sistema">Componentes del Sistema</a></li>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-    <li><a href="#colaboradores">Colaboradores</a></li>Colaboradores
+    <li><a href="#arquitectura">Arquitectura</a>
+        <li><a href="#vista-lógica">Vista lógica</a></li>
+        <li><a href="#vista-de-procesos">Vista de procesos</a></li>
+        <li><a href="#vista-de-desarrollo">Vista de Desarrollo</a></li>
+        <li><a href="#vista-física">Vista Física</a></li>
+        <li><a href="#vista-de-escenarios">Vista de Escenarios</a></li>
+    </li>
+    <li><a href="#roadmapa">Roadmap</a>
   </ol>
 </details>
 
