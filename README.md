@@ -46,24 +46,32 @@
       <ul>
         <li><a href="#objetivo">Objetivo</a></li>
         <li><a href="#alcance">Alcance</a>
-          <li><a href="#el-módulo-de-análisis-potenciando-la-extracción-de-valor-a-partir-de-los-datos">El Módulo de Análisis</a></li>
+          <ul>
+            <li><a href="#el-módulo-de-análisis-potenciando-la-extracción-de-valor-a-partir-de-los-datos">El Módulo de Análisis</a></li>
+          </ul>
         </li>
       </ul>
     </li>
     <li><a href="#requisitos">Requisitos</a>
+      <ul>
         <li><a href="#requisitos-funcionales">Requisitos Fuincionales</a></li>
         <li><a href="#requisitos-no-funcionales">Requisitos no Fuincionales</a></li>
+      </ul>
     </li>
     <li><a href="#minutas">Minutas de Reunión</a></li>
     <li><a href="#componentes-del-sistema">Componentes del Sistema</a>
+      <ul>
         <li><a href="#componentes-del-sistema">Componentes del Sistema</a></li>
+      </ul>
     </li>
     <li><a href="#arquitectura">Arquitectura</a>
+      <ul>
         <li><a href="#vista-lógica">Vista lógica</a></li>
         <li><a href="#vista-de-procesos">Vista de procesos</a></li>
         <li><a href="#vista-de-desarrollo">Vista de Desarrollo</a></li>
         <li><a href="#vista-física">Vista Física</a></li>
         <li><a href="#vista-de-escenarios">Vista de Escenarios</a></li>
+      </ul>
     </li>
     <li><a href="#roadmapa">Roadmap</a>
   </ol>
