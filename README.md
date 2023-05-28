@@ -143,6 +143,9 @@ A continuación se datallaran los componentes que son parte de la solución
 
 5.- **Visualización y Generación de Informes:** Este componente será la interfaz de usuario del sistema. Deberá ser capaz de presentar los resultados del análisis de manera clara y útil, a través de gráficos interactivos, tableros de control e informes automatizados. También deberá permitir a los usuarios interactuar con los datos y explorarlos de manera más profunda si lo desean.
 
+<p align="right">(<a href="#readme-top">Inicio</a>)</p>
+
+
 ## Arquitectura.
 
 ![diagrama-41](https://github.com/Paulerolero/Arquitectura-Modulo-Analitics-SCADA/assets/118944406/bd7a2408-55a9-4ff2-b233-fc9012180975)
@@ -193,3 +196,4 @@ Esta vista describirá varios escenarios de uso del Módulo de Análisis. Por ej
     - [ ] Chinese
     - [ ] Spanish -->
 
+<p align="right">(<a href="#readme-top">Inicio</a>)</p>
