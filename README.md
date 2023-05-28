@@ -46,6 +46,7 @@
       <ul>
         <li><a href="#objetivo">Objetivo</a></li>
         <li><a href="#alcance">Alcance</a></li>
+        <li><a href="#el-módulo-de-análisis-potenciando-la-extracción-de-valor-a-partir-de-los-datos">El Módulo de Análisis</a></li>
         <li><a href="#supuestos">Supuestos</a></li>
       </ul>
     </li>
@@ -76,7 +77,7 @@ El proyecto propuesto se centra en la construcción de un módulo avanzado de an
 
 #### El Módulo de Análisis: Potenciando la Extracción de Valor a partir de los Datos
 
--Recopilación de Datos Eficiente: Nuestro módulo se integra directamente con la base de datos centralizada del sistema utilizando protocolos SQL Server. Esta funcionalidad garantiza una recopilación de datos oportuna y precisa, vital para cualquier análisis de alta calidad.
+- Recopilación de Datos Eficiente: Nuestro módulo se integra directamente con la base de datos centralizada del sistema utilizando protocolos SQL Server. Esta funcionalidad garantiza una recopilación de datos oportuna y precisa, vital para cualquier análisis de alta calidad.
 
 - Procesamiento y Transformación de Datos Robusta: Con la implementación de algoritmos de vanguardia, nuestro módulo transforma los datos brutos en información de alto valor. Las técnicas incorporadas incluyen el filtrado, la normalización y la corrección de datos, así como la generación de métricas a través de cálculos y agregaciones.
 
@@ -134,9 +135,6 @@ A continuación se datallaran los componentes que son parte de la solución
 5.- **Visualización y Generación de Informes:** Este componente será la interfaz de usuario del sistema. Deberá ser capaz de presentar los resultados del análisis de manera clara y útil, a través de gráficos interactivos, tableros de control e informes automatizados. También deberá permitir a los usuarios interactuar con los datos y explorarlos de manera más profunda si lo desean.
 
 ## Arquitectura.
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
 
 ![diagrama-41](https://github.com/Paulerolero/Arquitectura-Modulo-Analitics-SCADA/assets/118944406/bd7a2408-55a9-4ff2-b233-fc9012180975)
 
