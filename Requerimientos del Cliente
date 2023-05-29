@@ -1,0 +1,39 @@
+Requerimientos del sistema
+
+Empresa de transmisión eléctrica, que abarca cerca del 90% de la transmisión eléctrica de Chile, necesita implementar en su sistema SCADA un módulo de detección de fallas en subestaciones eléctricas, con el fin de realizar mantenimiento predictivo en sus sistemas de transmisión.
+El modelo de detección de fallas debe ser capaz de predecir fallas con la finalizad de dar aviso al operador del sistema SCADA de una posible falla en algún equipamiento. El módulo debe monitorear todo el equipamiento primario y secundario de las subestaciones eléctricas, lo cuales son:
+
+1.	Interruptores (220kV, 110kV, 500kV)
+2.	Desconectadores (220kV, 110kV, 500kV)
+3.	Transformadores (nivel de aceite, corrientes, tensiones, potencias, temperatura de los devanados)
+4.	Líneas de transmisión (corrientes y tensiones)
+5.	Controladores de paño (IED)
+6.	Protecciones de la subestación eléctrica (IED)
+7.	Sistemas de respaldo de energía (UPS)
+
+La data analizada por el módulo, serán los datos históricos proporcionados por el sistema SCADA, dentro de los datos históricos se deberá analizar:
+
+•	Potencias enviadas y recibidas 
+•	Tensiones 
+•	Corrientes 
+•	Fallas de protección de paño (50BF, 87B, falla interruptor, Gas SF6, etc)
+•	Fallas protección de líneas (Distancia de falla, tensiones y corrientes)
+•	Fallas de controlador de paño (apertura por protecciones, 50BF, etc)
+
+Entrega de informes:
+
+El módulo de detección de fallas debe entregar informes periódicos de las posibles fallas que puedan ocurrir en el sistema de transmisión eléctrica.
+Los informes deben contener la siguiente información:
+
+1.	Detección de fallas: informar que fallas han ocurrido con mayor recurrencia, especificar qué acciones se deben tomar acorde a las normativas actuales. 
+2.	 Especificar mediante una descripción breve las acciones que se deben tomar para solventar una posible falla.
+3.	Mostar gráficos estadísticos, en los cuales se presente la cantidad de veces que se ha presentado una falla
+4.	Especificar los pasos a seguir en el mantenimiento predictivo que se debe realizar en los equipos de control y equipos primarios.
+Envió de data al sistema SCADA:
+
+
+El módulo de detección de fallas debe tener la capacidad de alertar al operador del sistema SCADA la posible ocurrencia de una falla, esto se debe lograr mediante él envió de alertas al sistema SCADA, esto se debe lograr mediante la comunicación entre base de datos o por protocolo de comunicación (IEC 104, DNP3.0, Modbus, OPC, etc).
+
+Interfaz gráfica del módulo de detección de fallas:
+
+El módulo de detección de fallas debe considerar una interfaz gráfica, en el cual debe estar implementado un dashboard, en el cual se presenten gráficos estadísticos de fallas, alertas prioritarias del sistema. Por otro lado, debe ser posible ingresar al módulo mediante una interfaz web, con usuario y contraseña, según corresponda a la responsabilidad o al cargo de cada colaborador de la empresa.
