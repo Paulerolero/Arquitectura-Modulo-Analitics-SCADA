@@ -1,0 +1,12 @@
+@startuml
+left to right direction
+actor "Servicio de Correo" as ServicioCorreo
+actor "Coordinados" as Coordinados
+
+rectangle "Enviar la demanda a los coordinados por correo electrónico" {
+  ServicioCorreo --> (Recoger demanda generada)
+  ServicioCorreo --> (Enviar demanda a los correos \nde los coordinados)
+  (Enviar demanda a los correos \nde los coordinados) --> Coordinados
+}
+
+@enduml

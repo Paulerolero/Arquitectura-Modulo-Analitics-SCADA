@@ -1,0 +1,15 @@
+@startuml
+left to right direction
+actor "Sistema Predictor" as SistemaPredictor
+actor "Base de Datos" as BaseDeDatos
+
+rectangle "Almacenamiento de las demandas de los coordinados" {
+  SistemaPredictor --> (Recoger datos de la base de datos)
+  SistemaPredictor --> (Ejecutar modelo de predicción)
+  SistemaPredictor --> (Generar demanda de los coordinados)
+  SistemaPredictor --> (Almacenar demanda de los coordinados en la base de datos)
+  (Recoger datos de la base de datos) --> BaseDeDatos
+  (Almacenar demanda de los coordinados en la base de datos) --> BaseDeDatos
+}
+
+@enduml

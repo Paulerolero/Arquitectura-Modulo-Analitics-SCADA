@@ -1,0 +1,13 @@
+@startuml
+left to right direction
+actor "Microservicio variables externas" as Microservicio
+actor "Base de Datos del proyecto" as BaseDeDatos
+
+rectangle "Recopilación de variables externas" {
+  Microservicio --> (Obtener datos climáticos y otras variables externas)
+  Microservicio --> (Almacenar datos en la base de datos del proyecto)
+  (Obtener datos climáticos y otras variables externas) --> BaseDeDatos
+  (Almacenar datos en la base de datos del proyecto) --> BaseDeDatos
+}
+
+@enduml
