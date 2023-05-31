@@ -82,35 +82,31 @@
 <!-- acerca-del-proyecto -->
 ## Acerca del Proyecto
 
-El proyecto propuesto se centra en la construcción de un módulo avanzado de análisis para un sistema SCADA (Supervisory Control and Data Acquisition). Este módulo está diseñado para recolectar, procesar y analizar datos provenientes de los sistemas operativos en un ambiente dado. La finalidad es generar información significativa y aportar conocimientos valiosos que permitan predecir la vida útil de los sistemas de mantenimiento. Además, este módulo contribuirá a la toma de decisiones y a la optimización del rendimiento en los procesos de supervisión y control.
+En el presente documento se presenta una posible solución a la deducción de demanda energética, para el Coordinador Eléctrico Nacional, es de vital importancia ir automatizando sus procesos. Actualmente la estimación de demanda para el día siguiente se realiza de forma manual, en el departamento de estudios y ajustes.
 
-#### El Módulo de Análisis: Potenciando la Extracción de Valor a partir de los Datos
+#### INTRODUCCIÓN
 
-- Recopilación de Datos Eficiente: Nuestro módulo se integra directamente con la base de datos centralizada del sistema utilizando protocolos SQL Server. Esta funcionalidad garantiza una recopilación de datos oportuna y precisa, vital para cualquier análisis de alta calidad.
+Actualmente en Chile tiene una matriz energética instalada de 57.738 GWh, siendo el 53.3% corresponde a energías renovables, el otro 46.7% corresponde a generación a base de carbón y/o Diesel. Cabe destacar que el total de la matriz energética, 19.383 GWh corresponde a energías renovables nos convencionales (ERNC), las cuales corresponden a energía eólica, energía térmica y energía solar.
 
-- Procesamiento y Transformación de Datos Robusta: Con la implementación de algoritmos de vanguardia, nuestro módulo transforma los datos brutos en información de alto valor. Las técnicas incorporadas incluyen el filtrado, la normalización y la corrección de datos, así como la generación de métricas a través de cálculos y agregaciones.
+Cabe destacar, que actualmente Chile es pionero en energías renovables, de lo cual, cada año se van integrando mas proyectos solares y eólicos, aumentando la capacidad energética de Chile.
+Para el año 2024 la empresa Colbún va a poner en servicio un parque eólico de 812 Mw instalados, produciendo anualmente 2700 GWh/año, lo cual implica que ese parque puede alimentar de energía eléctrica limpia a cerca de 700.000 hogares.
 
-- Análisis Estadístico Avanzado: El módulo de análisis ofrece una variedad de técnicas estadísticas, desde análisis de regresión y análisis de series temporales hasta análisis de frecuencia y análisis de correlación. Estas capacidades proporcionan una comprensión profunda del comportamiento del sistema, permitiendo una identificación proactiva de problemas y una mejora continua de la eficiencia.
+El ente regulador de todas las empresas de generación y transmisión a nivel nacional es el Coordinador Eléctrico Nacional (CEN). El CEN tiene la capacidad técnica de monitorear a todas las empresas del sector energético, esto gracias a su sistema SCADA que tiene instalado, cabe destacar, que el sistema SCADA instalado en el CEN es unió de los SCADA mas grandes a nivel nacional y regional (Latinoamérica), luego viene la empresa Transelec que tiene el 85% de la transmisión en Chile. Gracias al sistema SCADA el CEN puede monitorear toda la generación y transmisión a nivel nacional, a la vez, puede gestionar la generación, es decir, tiene la facultad de decirle a una empresa generadora cuanto debe general diariamente, suponiendo que una generadora tiene una capacidad instalada de 800 Mw, se le puede limitar la generación al 60% de su capacidad máxima, esto es acorde a las necesidades de la red eléctrica nacional.
 
-- Modelado Predictivo Preciso: El módulo cuenta con funcionalidades para desarrollar modelos matemáticos y algoritmos de aprendizaje automático con el fin de predecir el comportamiento futuro del sistema. Estos modelos predictivos facilitan la anticipación de fallas, la detección de condiciones anómalas y la realización de pronósticos de producción.
+### Antecedentes
+El Coordinador Eléctrico Nacional ocupa un sistema SCADA, con el cual monitorizan toda la red eléctrica nacional, una de las principales desventajas de estos tipos de sistemas es no poder predecir la demanda energética.
 
-- Visualización y Reportes Intuitivos: La interfaz gráfica del módulo permite una visualización detallada y personalizable de los resultados del análisis. Los datos se presentan mediante gráficos interactivos, tablas y dashboards ajustables. Además, el módulo es capaz de generar reportes automatizados para facilitar la comunicación y la toma de decisiones basada en datos.
+Actualmente para ver el tema de generación diaria, el departamento de estudios y ajustes del CEN, diseñan un plan de generación diaria, este plan contempla la regulación de energía generada por cada central eléctrica (parques eólicos, parques solares, hidroeléctricas, etc.). cabe mencionar, que este plan de generación diaria se realiza de forma manual, en el cual el ingeniero eléctrico debe calcular e ingresar la data correspondiente al software EMS para desarrollar el informe, el cual es enviado a todas las empresas coordinadas.
 
-### Objetivo
-Diseñar una arquitectura robusta y eficiente para un Módulo de Análisis que pueda soportar técnicas avanzadas de análisis predictivo con el objetivo de predecir la vida útil de los componentes individuales de los sistemas eléctricos. Esta arquitectura debe facilitar la integración y extracción de datos, el procesamiento y la visualización de los datos, así como la generación de modelos de predicción, permitiendo la futura implementación de un sistema de mantenimiento predictivo más eficiente.
+Uno de los principales inconvenientes es la tardía respuesta por parte del coordinador hacia las empresas de generación, ya que le factor humano retrasa la operación, a la vez, se pueden cometer errores de cálculo.
 
-### Alcance
-Considerando las respuestas a las preguntas sobre la extracción de datos y la decisión entre un data warehouse y un data mart, el alcance del proyecto podría quedar de la siguiente manera:
+Si bien los sistemas SCADA cuentan con el modulo EMS, con el cual desarrollan análisis de posibles fallas en el sistema de transmisión, además ver la demandan energética, estos análisis se realizan de forma periódica, pero se hacen de forma manual.
 
-El proyecto se centrará en diseñar una arquitectura robusta para un Módulo de Análisis que permita la recopilación, procesamiento, análisis y visualización de datos provenientes de los sistemas SCADA. Este módulo se enfocará en la predicción de la vida útil de componentes específicos de los sistemas eléctricos, como interruptores, transformadores y sistemas de alimentación.
+En el mundo SCADA eléctricos no existe algún modulo que sea capaz de predecir el comportamiento de la generación eléctrica, ya sea a mediana o gran escala. Esto es debido a que todo el desarrollo de softwares SCADA está pensado en operación en tiempo real y análisis de falla de forma offline, esto gracias a los sistemas historian, los cuales guardan la data histórica de forma automática. Según la regulación actual, todas las empresas de transmisión y/o generación por regulación deben guardar datos históricos de un año de antigüedad. 
 
-La extracción de datos será un componente esencial de la arquitectura, y se desarrollará un mecanismo específico para este propósito. Los datos a extraer incluirán voltajes, amperajes y otros datos relevantes de los sistemas, y se establecerán protocolos para manejar problemas de calidad de datos durante la extracción.
+Descrito lo anterior, en el presente trabajo se expone una posible solución en poder implementar un algoritmo de predicción, el cual sea capaz de predecir la demanda diaria, esto con el objetivo de optimizar los tiempos de predicción que realiza el departamento de estudios y ajustes.
 
-El proyecto también incluirá el diseño de un data warehouse para almacenar y gestionar los datos recopilados. Este data warehouse estará diseñado para soportar el análisis avanzado de datos y la generación de modelos predictivos.
-
-La seguridad y la privacidad de los datos serán una consideración importante en el diseño de la arquitectura, y se establecerán medidas para asegurar que los datos sean accesibles sólo por el sistema.
-
-El proyecto no incluirá la implementación del Módulo de Análisis ni la creación de mockups del sistema. Estas tareas se contemplarán para una fase posterior. Finalmente, se planea una validación de la arquitectura mediante la aplicación de la metodología ATAM (Architecture Tradeoff Analysis Method).
+El objetivo, como se describe anteriormente, es poder optimizar los tiempos de operación, con lo cual se busca dar respuestas claras y concisas a las empresas de generación, con lo cual se busca bajar los costos de operación y alargar la vida útil de las centrales eléctricas.
 
 <p align="right">(<a href="#readme-top">Inicio</a>)</p>
 
@@ -165,6 +161,9 @@ Esta vista se ocupará de cómo se desplegará el Módulo de Análisis en la inf
 
 ### Vista de Escenarios
 Esta vista describirá varios escenarios de uso del Módulo de Análisis. Por ejemplo, podría haber un escenario en el que los datos recopilados de los sistemas SCADA se utilicen para predecir la vida útil de un componente eléctrico específico.
+
+![CU-01](https://github.com/Paulerolero/Arquitectura-Modulo-Analitics-SCADA/blob/main/Diagramas4%2B1/5-Vista%20Escenarios/CU-01.png)
+
 
 <p align="right">(<a href="#readme-top">Inicio</a>)</p>
 
