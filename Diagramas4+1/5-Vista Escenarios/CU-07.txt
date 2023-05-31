@@ -1,0 +1,27 @@
+@startuml
+left to right direction
+title Enviar informes por correo electrónico
+
+actor "Sistema de informes" as Informes
+
+
+Informes -- (Conectar a Servidor_Correo)
+Informes -- (Enviar informes a direcciones de correo)
+
+note right of (Conectar a Servidor_Correo)
+  Precondiciones: Los informes de demanda eléctrica han sido generados.
+end note
+
+note right of (Enviar informes a direcciones de correo)
+  Postcondiciones: Los informes de demanda eléctrica han sido enviados 
+  a los coordinados.
+end note
+
+note right of Informes
+  Escenarios alternativos: Si el servidor de correo electrónico no está 
+  disponible o las direcciones de correo son incorrectas, 
+  el sistema de informes registra 
+  el error y lo notifica al sistema de manejo de errores.
+end note
+
+@enduml

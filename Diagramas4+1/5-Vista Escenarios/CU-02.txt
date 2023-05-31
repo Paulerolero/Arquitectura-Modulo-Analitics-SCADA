@@ -1,0 +1,27 @@
+@startuml
+left to right direction
+title Obtener la temperatura diaria
+
+actor "Microservicio de clima" as Clima
+
+
+Clima -- (Conectar a OpenWeatherMap)
+Clima -- (Obtener temperatura máxima y mínima diaria)
+Clima -- (Almacenar temperatura en BD_Predictivo)
+
+note right of (Conectar a OpenWeatherMap)
+  Precondiciones: OpenWeatherMap
+  está en línea y accesible.
+end note
+
+note right of (Almacenar temperatura en BD_Predictivo)
+  Postcondiciones: La temperatura diaria está almacenada 
+  en la base de datos del sistema predictivo.
+end note
+
+note right of Clima
+  Escenarios alternativos: Si OpenWeatherMap no está 
+  disponible, el microservicio de clima registra 
+  el error y lo notifica al sistema de manejo de errores.
+end note
+@enduml

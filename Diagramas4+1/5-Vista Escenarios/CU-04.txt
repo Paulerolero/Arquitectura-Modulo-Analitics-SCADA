@@ -1,0 +1,27 @@
+@startuml
+left to right direction
+title Generar la demanda de coordinados
+
+actor "Sistema predictor" as Predictor
+
+
+Predictor -- (Recoger datos necesarios de BD_Predictivo)
+Predictor -- (Generar demanda de coordinados)
+
+note right of (Recoger datos necesarios de BD_Predictivo)
+  Precondiciones: Los datos necesarios (consumo promedio, 
+  temperatura, información de eventos) están disponibles 
+  en la base de datos del sistema predictivo.
+end note
+
+note right of (Generar demanda de coordinados)
+  Postcondiciones: La demanda de los coordinados ha sido generada.
+end note
+
+note right of Predictor
+  Escenarios alternativos: Si los datos necesarios no están 
+  disponibles, el sistema predictor registra 
+  el error y lo notifica al sistema de manejo de errores.
+end note
+
+@enduml

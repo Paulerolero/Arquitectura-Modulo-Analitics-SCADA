@@ -1,0 +1,27 @@
+@startuml
+left to right direction
+title Obtener información de eventos
+
+actor "Microservicio de scraping" as Scraping
+
+Scraping -- (Conectar a Sitios_Web)
+Scraping -- (Obtener información de eventos)
+Scraping -- (Almacenar información en BD_Predictivo)
+
+note right of (Conectar a Sitios_Web)
+  Precondiciones: Los sitios web de eventos
+  están en línea y accesibles.
+end note
+
+note right of (Almacenar información en BD_Predictivo)
+  Postcondiciones: La información de los eventos está almacenada 
+  en la base de datos del sistema predictivo.
+end note
+
+note right of Scraping
+  Escenarios alternativos: Si los sitios web no están 
+  disponibles, el microservicio de scraping registra 
+  el error y lo notifica al sistema de manejo de errores.
+end note
+
+@enduml

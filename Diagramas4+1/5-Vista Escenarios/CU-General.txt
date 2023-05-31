@@ -1,0 +1,32 @@
+@startuml
+left to right direction
+actor "Microservicio de extracción SCADA" as SCADA
+actor "Microservicio de clima" as Climate
+actor "Microservicio de scraping" as Scraping
+actor "Sistema predictor" as Predictor
+actor "Sistema de informes" as Reports
+
+usecase UC1 as "Obtener el consumo promedio diario de SCADA"
+usecase UC2 as "Obtener la temperatura diaria"
+usecase UC3 as "Obtener información de eventos"
+usecase UC4 as "Generar la demanda de coordinados"
+usecase UC5 as "Guardar la demanda de coordinados"
+usecase UC6 as "Generar informes de demanda eléctrica"
+usecase UC7 as "Enviar informes por correo electrónico"
+
+SCADA --> UC1
+Climate --> UC2
+Scraping --> UC3
+Predictor --> UC4 : <<extends>>
+Predictor --> UC5 : <<extends>>
+Reports --> UC6 : <<extends>>
+Reports --> UC7 : <<extends>>
+
+UC4 ..> UC1 : <<uses>>
+UC4 ..> UC2 : <<uses>>
+UC4 ..> UC3 : <<uses>>
+
+UC6 ..> UC5 : <<uses>>
+
+UC7 ..> UC6 : <<uses>>
+@enduml

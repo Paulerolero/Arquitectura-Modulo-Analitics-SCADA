@@ -1,0 +1,25 @@
+@startuml
+left to right direction
+title Generar informes de demanda eléctrica
+
+actor "Sistema de informes" as Informes
+
+Informes -- (Recoger datos de demanda de BD_Predictivo)
+Informes -- (Procesar datos y generar informes)
+
+note right of (Recoger datos de demanda de BD_Predictivo)
+  Precondiciones: Los datos de demanda están disponibles 
+  en la base de datos del sistema predictivo.
+end note
+
+note right of (Procesar datos y generar informes)
+  Postcondiciones: Los informes de demanda eléctrica han sido generados.
+end note
+
+note right of Informes
+  Escenarios alternativos: Si los datos de demanda no están 
+  disponibles, el sistema de informes registra 
+  el error y lo notifica al sistema de manejo de errores.
+end note
+
+@enduml
