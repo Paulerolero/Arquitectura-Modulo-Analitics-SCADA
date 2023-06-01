@@ -1,0 +1,58 @@
+@startuml
+start
+
+fork
+    :Microservicio de Extracción se conecta a Base de Datos SCADA;
+    if (Base de Datos SCADA disponible y datos válidos) then (sí)
+        :Solicita y procesa consumo promedio del día anterior;
+        :Almacena datos en Base de Datos del Sistema Predictivo;
+    else (no)
+        :Genera notificación de error (RF15);
+    endif
+fork again
+    :Microservicio de Clima se conecta a API de OpenWeatherMap;
+    if (API de OpenWeatherMap disponible y datos válidos) then (sí)
+        :Solicita y procesa temperatura máxima y mínima del día;
+        :Almacena datos en Base de Datos del Sistema Predictivo;
+    else (no)
+        :Genera notificación de error (RF16);
+    endif
+fork again
+    :Microservicio de Scraping se conecta a sitios web de eventos;
+    if (Sitios web de eventos disponibles y datos válidos) then (sí)
+        :Solicita, recopila y procesa eventos a nivel nacional;
+        :Almacena datos en Base de Datos del Sistema Predictivo;
+    else (no)
+        :Genera notificación de error (RF17);
+    endif
+fork again
+    :Microservicio de Feriados se conecta a API de gobierno;
+    if (API de gobierno disponible y datos válidos) then (sí)
+        :Solicita, recoge y procesa información de feriados;
+        :Almacena datos en Base de Datos del Sistema Predictivo;
+    else (no)
+        :Genera notificación de error (RF18);
+    endif
+end fork
+
+:Sistema Predictor toma datos recopilados por microservicios;
+if (Datos disponibles y válidos) then (sí)
+    :Ejecuta red neuronal y genera estimaciones de demanda;
+    :Almacena estimaciones en Base de Datos del Sistema Predictivo;
+else (no)
+    :Genera notificación de error (RF19);
+endif
+
+:Sistema de Informes recoge datos de Base de Datos del Sistema Predictivo;
+while (Hay informes para enviar) is (Sí)
+    :Recibir informes del Sistema de Informes;
+    if (Sistema de Envío de Emails disponible y configurado correctamente) then (Sí)
+      :Realizar envíos a direcciones de correo electrónico;
+    else (No)
+      :Generar notificación de error (RF21);
+      stop
+    endif
+  endwhile (No)
+
+stop
+@enduml

@@ -1,0 +1,114 @@
+@startuml
+title Diagrama de Secuencia General
+
+actor "Microservicio de Extracción" as MEE
+actor "Microservicio de Clima" as MC
+actor "Microservicio de Scraping" as MS
+actor "Microservicio de Feriados" as MF
+actor "Sistema de Informes" as SI
+actor "Sistema de Envío de Emails" as SEE
+actor "Sistema Predictor" as SP
+database "Base de Datos del Sistema Predictivo" as BDSP
+database "Base de Datos SCADA" as BDSCADA
+boundary "Sitios Web de Eventos" as SWE
+boundary "API de OpenWeatherMap" as OWMAPI
+boundary "API de Gobierno Feriados" as GOVAPI
+
+|||
+
+MEE -> BDSCADA : Solicita consumo promedio del día anterior
+activate MEE
+activate BDSCADA
+BDSCADA --> MEE : Retorna consumo promedio
+deactivate BDSCADA
+
+MEE -> BDSP : Almacena consumo promedio
+activate BDSP
+BDSP --> MEE : Responde OK
+deactivate BDSP
+deactivate MEE
+
+|||
+|||
+
+
+
+MC -> OWMAPI : Solicita temperatura máxima y mínima del día
+activate MC
+activate OWMAPI
+OWMAPI --> MC : Retorna temperaturas
+deactivate OWMAPI
+MC -> BDSP : Almacena temperaturas
+activate BDSP
+BDSP --> MC : Responde OK
+deactivate BDSP
+deactivate MC
+
+|||
+|||
+
+
+MS -> SWE : Solicita información de eventos a nivel nacional
+activate MS
+activate SWE
+SWE --> MS : Retorna información de eventos
+deactivate SWE
+MS -> BDSP : Almacena información de eventos
+activate BDSP
+BDSP --> MS : Responde OK
+deactivate BDSP
+deactivate MS
+
+|||
+|||
+
+
+
+MF -> GOVAPI : Solicita información de feriados
+activate MF
+activate GOVAPI
+GOVAPI -> MF : Retorna información de feriados
+deactivate GOVAPI
+MF -> BDSP : Almacena información de feriados
+activate BDSP
+BDSP --> MF : Responde OK
+deactivate BDSP
+deactivate MF
+
+|||
+|||
+
+
+SP -> BDSP : Toma los datos recopilados por los microservicios
+activate SP
+BDSP --> SP : Retorna los datos solicitados
+activate BDSP
+deactivate BDSP
+SP -> SP : Ejecuta la red neuronal y genera las estimaciones de demanda
+SP -> BDSP : Almacena las estimaciones de demanda
+activate BDSP
+BDSP --> SP : Responde OK
+deactivate BDSP
+deactivate SP
+
+|||
+|||
+
+
+SI -> BDSP : Recoge los datos de la base de datos
+activate SI
+SI -> BDSP : Retorna datos solicitados
+activate BDSP
+deactivate BDSP
+SI -> SI : Genera los informes correspondientes
+SI -> SEE : Envía los informes al sistema de envío de emails
+activate SEE
+
+
+SEE -> SEE : Recibe los informes del sistema de informes
+SEE -> SEE : Realiza los envíos a las direcciones de correo electrónico correspondientes
+
+SEE --> SI: Responde respuesta envío mails
+deactivate SEE
+deactivate SI
+@enduml

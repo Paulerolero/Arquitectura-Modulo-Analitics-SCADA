@@ -1,0 +1,14 @@
+@startuml
+left to right direction
+
+actor "Sistema Predictor" as SP
+
+rectangle "Sistema Predictor" {
+    usecase (Generación de Estimaciones de Demanda) as UC5
+    usecase (Generar Notificación de Error) as UC19
+
+    SP --> UC5 : Realiza
+    UC5 ..> UC19 : <<extends>>
+}
+
+@enduml

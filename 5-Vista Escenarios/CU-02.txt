@@ -1,0 +1,14 @@
+@startuml
+left to right direction
+
+actor "Microservicio de Clima" as M2
+
+rectangle "Sistema Predictor" {
+    usecase (Recolección de Temperatura Máxima y Mínima) as UC2
+    usecase (Generar Notificación de Error) as UC16
+
+    M2 --> UC2 : Realiza
+    UC2 ..> UC16 : <<extends>>
+}
+
+@enduml

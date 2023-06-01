@@ -1,0 +1,14 @@
+@startuml
+left to right direction
+
+actor "Sistema de Envío de Emails" as SE
+
+rectangle "Sistema Predictor" {
+    usecase (Envío de Emails) as UC7
+    usecase (Generar Notificación de Error) as UC21
+
+    SE --> UC7 : Realiza
+    UC7 ..> UC21 : <<extends>>
+}
+
+@enduml
