@@ -1,28 +1,14 @@
 @startuml
 left to right direction
-title Obtener el consumo promedio diario de SCADA
 
-actor "Microservicio de extracción SCADA" as SCADA
+actor "Microservicio de Extracción" as M1
 
+rectangle "Sistema Predictor" {
+    usecase (Extracción del Consumo Promedio) as UC1
+    usecase (Generar Notificación de Error) as UC15
 
-SCADA -- (Conectar a BD_SCADA)
-SCADA -- (Obtener consumo promedio diario)
-SCADA -- (Almacenar consumo promedio en BD_Predictivo)
-
-note right of (Conectar a BD_SCADA)
-  Precondiciones: La base de datos SCADA
-  está en línea y accesible.
-end note
-
-note right of (Almacenar consumo promedio en BD_Predictivo)
-  Postcondiciones: El consumo promedio diario está almacenado 
-  en la base de datos del sistema predictivo.
-end note
-
-note right of SCADA
-  Escenarios alternativos: Si la base de datos SCADA no está 
-  disponible, el microservicio de extracción SCADA registra 
-  el error y lo notifica al sistema de manejo de errores.
-end note
+    M1 --> UC1 : Realiza
+    UC1 ..> UC15 : <<extends>>
+}
 
 @enduml

@@ -1,25 +1,14 @@
 @startuml
 left to right direction
-title Guardar la demanda de coordinados
 
-actor "Sistema predictor" as Predictor
+actor "Sistema Predictor" as SP
 
-Predictor -- (Conectar a BD_Predictivo)
-Predictor -- (Almacenar demanda de coordinados en BD_Predictivo)
+rectangle "Sistema Predictor" {
+    usecase (Generación de Estimaciones de Demanda) as UC5
+    usecase (Generar Notificación de Error) as UC19
 
-note right of (Conectar a BD_Predictivo)
-  Precondiciones: La demanda de los coordinados ha sido generada.
-end note
-
-note right of (Almacenar demanda de coordinados en BD_Predictivo)
-  Postcondiciones: La demanda de los coordinados está almacenada 
-  en la base de datos del sistema predictivo.
-end note
-
-note right of Predictor
-  Escenarios alternativos: Si la base de datos del sistema predictivo no está 
-  disponible, el sistema predictor registra 
-  el error y lo notifica al sistema de manejo de errores.
-end note
+    SP --> UC5 : Realiza
+    UC5 ..> UC19 : <<extends>>
+}
 
 @enduml
