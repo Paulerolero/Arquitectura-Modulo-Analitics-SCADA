@@ -162,8 +162,24 @@ Esta vista se ocupará de cómo se desplegará el Módulo de Análisis en la inf
 ### Vista de Escenarios
 Esta vista describirá varios escenarios de uso del Módulo de Análisis. Por ejemplo, podría haber un escenario en el que los datos recopilados de los sistemas SCADA se utilicen para predecir la vida útil de un componente eléctrico específico.
 
-![CU-01](https://github.com/Paulerolero/Arquitectura-Modulo-Analitics-SCADA/blob/main/Diagramas4%2B1/5-Vista%20Escenarios/CU-01.png)
+### Casos de Uso
 
+#### General
+![General](https://github.com/Paulerolero/Arquitectura-Modulo-Analitics-SCADA/blob/main/Diagramas4%2B1/5-Vista%20Escenarios/CU-General.png)
+#### General
+![CU-01](https://github.com/Paulerolero/Arquitectura-Modulo-Analitics-SCADA/blob/main/Diagramas4%2B1/5-Vista%20Escenarios/CU-01.png)
+#### Obtencion de temperatura diaria
+![CU-02](https://github.com/Paulerolero/Arquitectura-Modulo-Analitics-SCADA/blob/main/Diagramas4%2B1/5-Vista%20Escenarios/CU-02.png)
+#### Obtencion informacion de eventos
+![CU-03](https://github.com/Paulerolero/Arquitectura-Modulo-Analitics-SCADA/blob/main/Diagramas4%2B1/5-Vista%20Escenarios/CU-03.png)
+#### Generar la demanda de coordinados
+![CU-04](https://github.com/Paulerolero/Arquitectura-Modulo-Analitics-SCADA/blob/main/Diagramas4%2B1/5-Vista%20Escenarios/CU-04.png)
+#### Guardar la demanda de coordinados
+![CU-05](https://github.com/Paulerolero/Arquitectura-Modulo-Analitics-SCADA/blob/main/Diagramas4%2B1/5-Vista%20Escenarios/CU-05.png)
+#### Generar informes de demanda electrica
+![CU-06](https://github.com/Paulerolero/Arquitectura-Modulo-Analitics-SCADA/blob/main/Diagramas4%2B1/5-Vista%20Escenarios/CU-06.png)
+#### Enviar informes por correo electronico
+![CU-07](https://github.com/Paulerolero/Arquitectura-Modulo-Analitics-SCADA/blob/main/Diagramas4%2B1/5-Vista%20Escenarios/CU-07.png)
 
 <p align="right">(<a href="#readme-top">Inicio</a>)</p>
 
