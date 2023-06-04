@@ -165,7 +165,7 @@ Esta vista describirá varios escenarios de uso del Módulo de Análisis. Por ej
 ## Casos de Uso
 
 ### General
-![General](https://github.com/Paulerolero/Arquitectura-Modulo-Analitics-SCADA/blob/main/Diagramas4%2B1/5-Vista%20Escenarios/CU-General.png)
+![General](https://github.com/Paulerolero/Arquitectura-Modulo-Analitics-SCADA/blob/main/5-Vista%20Escenarios/CU-General.png)
 ### Obtencion promedio diario SCADA
 ![CU-01](https://github.com/Paulerolero/Arquitectura-Modulo-Analitics-SCADA/blob/main/Diagramas4%2B1/5-Vista%20Escenarios/CU-01.png)
 ### Obtencion de temperatura diaria
